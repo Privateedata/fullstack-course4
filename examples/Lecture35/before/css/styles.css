@@ -89,6 +89,28 @@ body {
   border: 2px solid #3F0C1F;
 }
 
+#menu-tile, #specials-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-top: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-title{
+  background: url("../images/menu-tile.jpg") no-repeat;
+  background-position: center;
+}
+
+#specials-tile {
+  background: url("../images/specials-tile.jpg") no-repeat;
+  background-position: center;
+}
+
 /* END HOME PAGE */
 
 /********** Large devices only **********/
