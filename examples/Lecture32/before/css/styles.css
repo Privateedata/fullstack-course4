@@ -19,6 +19,30 @@ body {
   margin: 10px 15px 10px 0;
 }
 
+#nav-list {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#nav-list a:hover{
+  background-color: #e7e7e7;
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+#phone a{
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone div{
+  color: #557c3e;
+  text-aling: right;
+  padding-right: 15px;
+}
+
 .navbar-brand {
   padding-top: 25px;
 }

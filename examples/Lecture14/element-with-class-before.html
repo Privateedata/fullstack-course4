@@ -5,19 +5,28 @@
 <title>Element with Class Selector
 </title>
 <style>
+    p.big {  <!-- the p tag using class big will use this rules -->
+        font-size: 22px;
+        color: #1b6d85;
+        
+    }
+
+    article > p {  <!-- any p tag inside the articel tag will follow this rule -->
+        color: lightseagreen;
+    }
 
 /* all with class="highlight" */
-xxx {
+.highlight {
   background-color: green;
 }
 
 /* all p elements with class="highlight" */
-xxx {  
+p.higlight {  
   font-style: italic;
 }
 
 /* all elements with class 'highlight' as well as with class 'mainpoint'. */
-xxx {
+.higlight.mainpoint {
   color: red;
   background-color: black;
 }
@@ -28,7 +37,7 @@ xxx {
 
 <h1 class="highlight">Element with Class Selector</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
-<p class="highlight">This is P with CLASS="highlight"</p>
+<p class="higlight">This is P with CLASS="highlight"</p>
 <div class="mainpoint highlight">This is the main point of the entire article.
 </div>
 

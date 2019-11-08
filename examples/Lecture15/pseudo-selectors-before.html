@@ -5,7 +5,33 @@
 <title>Pseudo Class Selectors</title>
 <style>
 /* Styles go here. */
-
+header li{
+  list-style-type: none;
+}
+  a:link, a:visited{
+    text-decoration: none;
+    background: green;
+    border: 1px solid blue;
+    color: black;
+    width: 190px;
+    margin-bottom: 1px;
+    display: block;
+    <!-- display: block; It will remove them from inlie element and try 
+                          to fill out the box instead -->
+    text-align: center;
+  }
+  a:hover , a:active{
+    background-color: red;
+    color: fuchsia;
+  }
+  <!-- nth-child means it will target a specific element in that tag sub-child -->
+  header li:nth-child(3){
+    font-size: 26px;
+  }
+  
+  section div:nth-child(odd){
+    background-color: gold;
+  }
 
 </style>
 </head>
