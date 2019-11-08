@@ -4,3 +4,38 @@ body {
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
+
+#header-nav {
+  background-color:gold;
+  border-radius:  0;
+  border: 0;
+}
+
+#logo-img{
+  background: url('../images/restaurant-logo_large.png') ;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1{
+  font-family: "Lora", serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform:  uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top : 0 ;
+  margin-bottom: 0;
+  
+  line-height: .75;
+}
+
+/* any tag"navbar-brand" with attribute hover or focus will not be given any decoration
+we do this in case that people clicl on it to go to home page the text wont be hilgithed blue or underlien */
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
