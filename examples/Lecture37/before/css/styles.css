@@ -191,6 +191,37 @@ body {
   /* End Home Page */
 }
 
+/* Menu Categoroies Page */
+.category-tile{
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  width:200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right:0 ;
+  width: 100%;
+  text-aling: center;
+  font-size: 1.2em;
+  text-tranform: uppercase;
+  color: #fff;
+  opacity: .8;
+  background-color: #0f0f0f;
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
